@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.card1,.card2,.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 200px;
+    height: 300px;
+    background: white;
+    margin: 0 .5em;
+    box-shadow: 0 10px 15px hsl(0, 0%, 0%,.4);
+}
+.image{
+    flex: 3;width: 100%;
+    height: 100%;
+}
+.text{
+    flex: 2;
+    padding: .5em;
+    margin-top: 1em;
+}
+.card1 .image{
+    background: url(under_constructions__isometric.svg) center no-repeat;
+    background-size: cover;
+}
+.card2 .image{
+    background: url(html_isometric.svg) center no-repeat;
+    background-size: cover;
+}.card3 .image{
+    background: url(navigation_isometric.svg) center no-repeat;
+    background-size: cover;
+}
+h4{
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    font-size: .8em;
+    text-align: center;
+
+}
+.card2{
+    width: 220px;
+    height: 330px;
+}
+h5{
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    writing-mode: vertical-lr;
+    color: rgb(19, 38, 82);
+}
